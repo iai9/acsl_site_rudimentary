@@ -1,0 +1,63 @@
+html{
+    /* background-color: green; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    background-color: rgb(246, 249, 250);
+}
+a{
+    color: blue;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    /* font-size: 40px; */
+    scrollbar-gutter: stable both-edges;
+
+}
+.main{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    /* background-color: blue; */
+    justify-content: center;
+    text-align: center;
+
+}
+.title{
+    font-size: x-large;
+    font-weight: 600;
+}
+.subtitle{
+    font-size: larger;
+    margin-bottom: 5vh;
+}
+.full_list{
+    list-style: none;
+    padding: 0;
+}
+.contest_li{
+    margin: 1.5vh 0;
+}
+.contest_li p{
+    margin: 0;
+    font-size: 140%;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+.contest_topics{
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    font-size: 105%;
+}
+.content_heading{
+    font-size: 140%;
+}
+hr{
+    /* background-color: black; */
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 50%;
+ 
+}
